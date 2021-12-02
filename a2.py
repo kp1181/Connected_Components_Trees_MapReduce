@@ -56,7 +56,7 @@ def extend(a,b):
 
 
 if __name__ == "__main__":
-    conf = SparkConf().setAppName("IntroPDP_A2_kporandl")
+    conf = SparkConf().setAppName("ConnectedComponentsForest")
     a = time.time()
     sc = SparkContext(conf=conf)
 
@@ -84,3 +84,5 @@ if __name__ == "__main__":
     b = time.time()
     print(format(b-a, ".1f"))
 
+#Configurations used while testing this code:
+#spark.default.parallelism = 2*total-executor-cores
