@@ -5,5 +5,5 @@ Input here is a text file with containing edges of the form 'u v' where u -> v i
 
 Output will have each vertex pointed to its respective root.
 
-This code was tested and benchmarked on UB's HPC center, Center for Computational Research.
+This code was tested and benchmarked on UB's HPC center, [Center for Computational Research](https://www.buffalo.edu/ccr.html).
 
